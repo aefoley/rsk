@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>fbwhite</title>
+  <path class="cls-1" d="M16.5,0.5a16,16,0,1,0,16,16A16,16,0,0,0,16.5.5Zm3.43,16H17.69v8H14.36v-8H12.78V13.68h1.58V11.85A3.12,3.12,0,0,1,17.72,8.5h2.46v2.74H18.39a0.68,0.68,0,0,0-.71.77v1.66h2.53Z" transform="translate(-0.5 -0.5)"/>
+</svg>

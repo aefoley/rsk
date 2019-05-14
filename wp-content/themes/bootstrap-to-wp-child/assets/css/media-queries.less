@@ -1,0 +1,474 @@
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/* Large devices (large desktops, 1200px and up)  col-lg */
+@media (min-width: 1200px) {
+  .page-id-16 .square-it.five .inner-square-it .content-circle {
+      top:20%;
+ }
+
+     
+}
+
+/* ==================================================================  Landscape tablets and medium desktops col-md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  body { //allows room for navbar.
+    padding-top:93px;
+  }
+
+  div.search {
+    .mtop20;
+  }
+
+  .navbar-header {
+    margin-top:41px;
+  }
+
+  .navbar-header.shrink {
+    margin-top:19px;
+  }
+
+  .navbar-default {
+    height: 95px;
+  }
+  .navbar-default.shrink {
+    height:73px;
+  }
+
+  ul#menu-utility-menu {
+      li a {margin-left:5px;
+          margin-right:5px;
+      }
+  }
+
+  // Work landing squares
+  .hovereffect .overlay {
+    height:14%;
+  }
+
+  //styles jumbotron on home page
+  .home-hero-btns {
+    margin-top:50px;
+  }
+
+  .container.jumbotext {
+    margin-top:-300px;
+    margin-bottom:70px;
+    font-size:60%;
+  }
+  .expertise-texture {
+    height:288px;
+  }
+
+  .row.shrinkthese {//social buttons on contact page
+    margin-top:20px;
+    .col-xs-3 {
+      padding-left:5px;
+      padding-right:5px;
+    }
+  }
+
+  //contact page squares. 
+  .page-id-16 .square-it.five .inner-square-it .content-circle {
+    top:15%;
+  }
+
+  .square-it{
+    .inner-square-it { //vertical centered text
+        position: relative; 
+        h2 {
+            font-size:1.8em !important;
+         }
+    }
+  } 
+
+}
+
+/* /* ================================================================== Portrait tablets and small desktops col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    padding-top:78px;
+  }
+  .dropdown-menu {
+       position:relative;
+  }
+  .navbar-header {
+    margin-top:26px;
+  }
+
+  .navbar-header.shrink {
+    margin-top:21px;
+  }
+
+  .navbar-default {
+    height: 80px;
+    .navbar-brand {
+      padding-top:5px;
+      img {
+        width:80%;
+      }
+    }
+  }
+
+  .navbar-default.shrink {
+    height:75px;
+    .navbar-brand {
+      padding-top:10px;
+      img {
+        width:90%;
+      }
+    }
+  }
+
+ .nav>li>a {
+    font-size:1em;
+    padding-left:8px;
+    padding-right:8px;
+  }
+
+  div.search {
+      .mtop20;
+  }
+  .searchlabel {
+      display:none;
+  }
+
+  .expertise-texture {
+      height:250px;
+   }
+/* news landing page ------------------------------------------------------------------*/
+
+
+
+//-----------------------------------------------------home page
+
+  body.home {
+    h1 {
+    font-size:4em;
+    }
+    p {
+      font-size:1.2em;
+     }
+  }
+
+   body.home.square-it.inner-square-it {
+    top:0;
+   }
+  .home-hero-btns a {
+    font-size:.7em;
+    margin-top:50px;
+  }
+
+//styles jumbotron on home page
+  .wide {
+    margin-top:0;
+  }
+  .hovereffect .overlay {
+    height:10%;
+  }
+  .container.jumbotext {
+    margin-top:-300px;
+     margin-bottom:20px;
+    h1 {
+      font-size:40px;
+    }
+  }
+  #clients a.btn.btn-secondary, #hard-work a.btn.btn-secondary {
+  margin-left:30% !important;
+  margin-right:30% !important;
+  }
+
+  .unslider ul li p {
+  font-size:inherit;
+  }
+  .square-it .inner-square-it .content-circle { 
+    margin-left:-2%;
+  }
+
+  .square-it{
+  .inner-square-it { //vertical centered text
+    position: relative; 
+    h2 {
+        font-size:1.5em !important;
+     }
+   }
+  }
+  .page-id-16 .square-it.five .inner-square-it .content-circle {
+    top:12%;
+  }
+  .row.shrinkthese {//social buttons on contact page
+  .col-xs-3 {
+    padding-left:5px;
+    padding-right:5px;
+  }
+  }
+
+  body.single-work {
+  .play-vid {
+   left:40%;
+  }
+  }
+
+  .news-hero {
+    font-size: smaller;
+  }
+}
+
+
+@media (max-width:783px) {
+    body {
+        padding-top:55px;
+    }
+
+}
+
+/* /* ================================================================== Landscape phones and portrait tablets col-xs */
+@media (max-width: 767px) {
+
+  body {
+    padding-top:88px;
+
+  }
+
+  #clients {
+    background-image:url('/wp-content/themes/bootstrap-to-wp-child/assets/img/home-client-striptall.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:  cover;
+  }
+
+  #first-redbox {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:  cover;
+  }
+
+  #testimonials {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:  cover;
+  }
+
+  .navbar-default .navbar-collapse {
+    border-color: @lightgray;
+    max-height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 90px;
+    width: 110%;
+    margin-left: -30px;
+    border-bottom-width:1px solid @lightgray;
+  }
+  .shrink2 {
+    top:70px !important;
+  }
+  ul.navbar-nav {
+    margin-top:0;
+    margin-bottom:0;
+  }
+  .navbar-default .navbar-nav li{
+    border-bottom:1px solid @lightgray;
+  }
+  .navbar-default .navbar-nav>.active>a,
+  .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover {
+    background-color: @lightgray;
+    border-bottom:1px solid @lightgray;
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    background-color:@lightgray;
+    transition: background-color .7s ease-in-out;
+    -moz-transition: background-color .7s ease-in-out;
+    -webkit-transition: background-color .7s ease-in-out;
+  }
+  .navbar-header {
+  margin-top:34px;
+  }
+  .navbar-default {
+    color: #fff;
+    height:90px;
+      .shrink {
+      height:90px;
+    }
+  }
+  .navbar-brand {
+    margin-left:0 !important;
+    padding-top:12px;
+      img { 
+        width:140px;
+      }
+  }
+  .navbar-brand.shrink {
+  padding-top:0;
+    img{
+      margin-left:0;
+      transform: scale(.9);
+    }
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 400px;
+  }
+  .footer {
+    height: 400px;
+      button {
+          .mleft0;
+          .mtop10;
+      }
+      .pleft0 {
+          padding-left:10px;
+      }
+  }
+  .searchlabel {
+    display:none;
+  }
+  ul#menu-utility-menu {3
+    li a {margin-left:4px;
+        margin-right:4px;
+        font-size: .8em;
+    }
+  }
+  .right-footer {
+    float:left;
+  }
+  footer.footer {
+    div.social {
+        .mbottom50;
+    }
+  }
+  .hovereffect .overlay {
+    font-size:.9em;
+    line-height:.9em;
+    height:10%;
+      h4{
+        margin-bottom:5px;
+        a {
+          font-size:.7em;
+        }
+    }
+  }
+  .section-title {
+    font-size:1.5em;
+    text-align:center;
+      .mtop50;
+      .mbottom10;
+  }
+  .section-tagline {
+    margin-left:10px;
+    font-size:.9em;
+  }
+  figure.wp-caption {
+    margin-bottom:20px;
+  }
+  //styles jumbotron on home page
+  .wide {
+  argin-top:23px;
+  }
+  .container.jumbotext {
+    margin-top:-200px;
+    margin-bottom:0;
+    font-size:60%;
+  }
+  .expertise-texture {
+  eight:180px;
+  }
+
+
+  #clients a.btn.btn-secondary, #hard-work a.btn.btn-secondary {
+    margin-left:25% !important;
+    margin-right:25% !important;
+    }
+  body.home {
+    h1 {
+      font-size:4em;
+    }
+    p {
+      font-size:1.2em;
+    }
+  }
+  .square-it{
+    .inner-square-it { //vertical centered text
+      h2 {
+        font-size:8vw;
+      }
+       p {
+          font-size: 3.5vw;
+       }
+      }
+  }
+  .my-slider {
+  margin-top:20px;
+  }
+   .unslider ul li p {
+  font-size:inherit;
+  }
+  .page-id-16 .square-it .inner-square-it .content-circle h2 {
+    font-size: 2.5em;
+    font-size: 5vw;
+  }
+  body.single-work {
+    .play-vid {
+      left:40%;
+    }
+  }
+
+  .news-hero {
+    height:300px;
+    font-size: x-small;
+    img {
+      top:0;
+
+    }
+      .news-excerpt {
+        top: 5%;
+        left:10%;
+      transform: translate(-0%, -0%);
+    }
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .navbar-brand {
+    margin-left:0;
+  }
+
+  .page-id-16 .square-it .inner-square-it .content-circle h2 {
+    font-size: 2.5em;
+    font-size: 5vw;
+}
+
+  .hovereffect .overlay {
+      height:20%;
+    }
+
+       body.single-work {
+    .play-vid {
+    top:70%
+   }
+ }
+
+
+
+}
+
+ /* Fix for #wpadminbar bug */
+@media only screen and (max-width : 600px) {
+  #wpadminbar {
+    position: fixed;
+  }
+}
+
