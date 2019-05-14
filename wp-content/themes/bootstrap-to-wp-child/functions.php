@@ -350,11 +350,11 @@ add_filter( 'menu_order', 'reorder_admin_menu' );
 //  */
 
 // add more link to excerpt
-function custom_excerpt_more($more) {
-   global $post;
-   return '...<a class="more-link" href="'. get_permalink($post->ID) . '">'. '&nbsp; &nbsp; Read more &raquo; ' .'</a>';
-}
-add_filter('excerpt_more', 'custom_excerpt_more');
+// function custom_excerpt_more($more) {
+//    global $post;
+//    return '...<a class="more-link" href="'. get_permalink($post->ID) . '">'. '&nbsp; &nbsp; Read more &raquo; ' .'</a>';
+// }
+// add_filter('excerpt_more', 'custom_excerpt_more');
 
 
 
